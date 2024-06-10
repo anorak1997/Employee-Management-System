@@ -1,0 +1,41 @@
+/* Custom styles for Navbar */
+.custom-navbar {
+    background-color: #343a40;
+    padding: 1rem 2rem;
+}
+
+.custom-brand {
+    color: #ffdd57;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.custom-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%2877, 77, 77, 0.7%29' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-link {
+    color: #ffffff;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+}
+
+.custom-link:hover {
+    color: #ffdd57;
+}
+
+.custom-btn {
+    color: #343a40;
+    background-color: #ffdd57;
+    border-color: #ffdd57;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: #ffc107;
+    color: #343a40;
+}
+
+.custom-btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 221, 87, 0.5);
+}
